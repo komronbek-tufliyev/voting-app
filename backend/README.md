@@ -6,6 +6,33 @@
 > - [x] Use PostgreSQL or SQLite
 > - [x] Use your brain ))
 
+## Project version control
+
+# Project setup
+
+## Clone repository
+```bash
+git clone https://github.com/komronbek-tufliyev/voting-app.git
+```
+## Install dependencies
+Create a virtual environment and install dependencies:
+```bash
+pip install -r requirements.txt
+```
+## Run migrations
+```bash
+python manage.py migrate
+```
+## Run server
+```bash
+python manage.py runserver
+```
+## Open API documentation
+```bash
+http://127.0.0.1:8000/api/v1/docs/
+```
+
+
 ## Project structure
 > - [x] Create a Django project
 > - [x] Create a Django app
@@ -36,30 +63,4 @@
 > - [x] Create a README.md
 > - [x] Create a CHANGELOG.md
 > - [x] Create a CONTRIBUTING.md
-
-## Project version control
-
-# Project setup
-
-## Clone repository
-```bash
-git clone https://github.com/komronbek-tufliyev/voting-app.git
-```
-## Install dependencies
-Create a virtual environment and install dependencies:
-```bash
-pip install -r requirements.txt
-```
-## Run migrations
-```bash
-python manage.py migrate
-```
-## Run server
-```bash
-python manage.py runserver
-```
-## Open API documentation
-```bash
-http://127.0.0.1:8000/api/v1/docs/
-```
 
